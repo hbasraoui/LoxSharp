@@ -8,6 +8,6 @@ The code in this project is heavily inspired from Bob's Java implementation in t
 
 - I opted for an [`IErrorReporter`](LoxSharp/ErrorHandling/IErrorReporter.cs) abstraction for error handling as suggested in the [Error handling](https://craftinginterpreters.com/scanning.html#error-handling) part of the Scanning chapter. Bob saw it a bit overkill for the interpreter he was writing in the book. I thought it would be better to keep it, as it would make testing error handling easier.
 
-- I implemented the [Scanner](Loxsharp/Scanning/Scanner.cs) as a lazy iterator (i.e, an Enumerable in C#).
+- I implemented the [Scanner](LoxSharp/Scanning/Scanner.cs) as a lazy iterator (i.e, an Enumerable in C#).
 
-- I added support for [multi-line comments](Loxsharp/Scanning/Scanner.cs#l111).
+- I added support for [multi-line comments](LoxSharp/Scanning/Scanner.cs#l111).
