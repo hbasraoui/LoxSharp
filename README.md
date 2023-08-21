@@ -10,4 +10,4 @@ The code in this project is heavily inspired from Bob's Java implementation in t
 
 - I implemented the [Scanner](LoxSharp/Scanning/Scanner.cs) as a lazy iterator (i.e, an Enumerable in C#).
 
-- I added support for [multi-line comments](LoxSharp/Scanning/Scanner.cs#l111).
+- I added support for [multi-line comments](LoxSharp/Scanning/Scanner.cs#L111).
